@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="lv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact - woxicox</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">woxicox</div>
+  <nav class="nav">
+    <a class="nav-link" href="/">Me</a>
+    <a class="nav-link active" href="/contact/">Contacts</a>
+    <a class="nav-link" href="/projects/">Projects</a>
+    <a class="nav-link" href="/about/">About</a>
+  </nav>
+</header>
+
+<main class="center">
+  <div class="card">
+    <h1>Contact Me</h1>
+
+    <p>📧 Email: example@email.com</p>
+    <p>💬 Discord: woxicox#0001</p>
+    <p>📸 Instagram: @woxicox</p>
+
+  </div>
+</main>
+
+<footer class="footer">
+  © <span id="year"></span> woxicox
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

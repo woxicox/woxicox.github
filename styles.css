@@ -156,8 +156,7 @@ body {
   color: #ffffff;
 }
 
-/* Force Telegram link color */
-a.contact-link,
+a.contact-link:link,
 a.contact-link:visited,
 a.contact-link:hover,
 a.contact-link:active {

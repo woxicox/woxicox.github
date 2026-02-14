@@ -157,8 +157,10 @@ body {
 }
 
 .contact-link,
-.contact-link:visited {
-  color: #00e5ff; /* Aqua */
+.contact-link:visited,
+.contact-link:hover,
+.contact-link:active {
+  color: #00e5ff !important; /* Aqua */
   font-weight: 800;
   text-decoration: none;
 }
